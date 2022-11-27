@@ -63,11 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  There was a typo in the Toys so I deleted the s and the toy was able to be posted
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  I returned JSON data in the response from the toys_controller
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  I added the destroy route in the routes file
